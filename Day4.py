@@ -16,7 +16,6 @@ def main():
         if is_complete_overlap((int(start_1), int(stop_1)), (int(start_2), int(stop_2))):
             num_complete_overlaps += 1
 
-
         if is_partial_overlap((int(start_1), int(stop_1)), (int(start_2), int(stop_2))):
             num_partial_overlaps += 1
 
